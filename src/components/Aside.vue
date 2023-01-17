@@ -11,6 +11,6 @@ export default {
 <template>
 	<aside>
 		ASIDE
-		<Footer />
+		<Footer class="border border-stone-500" />
 	</aside>
 </template>
