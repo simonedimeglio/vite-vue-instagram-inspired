@@ -6,7 +6,7 @@ export default {
 	components: {
 		Suggested,
 		Footer
-	},
+	}
 };
 </script>
 
@@ -33,14 +33,18 @@ export default {
 				<div class="font-semibold text-xs">Mostra tutti</div>
 		</div>
 
+
 		<!-- Suggestions's list -->
-		<Suggested  />
-		<Suggested  />
-		<Suggested  />
-		<Suggested  />
-		<Suggested  />
-
-
+		<Suspense>
+			<template #default>
+				<Suggested  />
+			</template>
+			<template #fallback>
+				<div>Loading...</div>
+			</template>		
+		</Suspense>
+		
+		<!-- Footer -->
 		<Footer />
 	</aside>
 </template>

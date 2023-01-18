@@ -10,7 +10,13 @@ export default {
 
 <template>
 	<section>
-		<Post  />
-		<Post  />
+		<Suspense>
+			<template #default>
+				<Post  />
+			</template>
+			<template #fallback>
+				<div>Loading...</div>
+			</template>
+		</Suspense>
 	</section>
 </template>
