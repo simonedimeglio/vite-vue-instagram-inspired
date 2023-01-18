@@ -1,7 +1,16 @@
-<script></script>
+<script>
+import Post from "./Post.vue";
+
+export default {
+	components: {
+		Post
+	},
+};
+</script>
 
 <template>
 	<section>
-		POSTS
+		<Post  />
+		<Post  />
 	</section>
 </template>

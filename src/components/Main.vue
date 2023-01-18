@@ -11,8 +11,8 @@ export default {
 </script>
 
 <template>
-  <main class="border border-green-500 grow-[2]">
-		<Stories class="border border-blue-600" />
-		<Posts class="border border-purple-500" />
+  <main class="mr-8">
+		<Stories class="" />
+		<Posts class="" />
 	</main>
 </template>

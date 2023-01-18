@@ -1,34 +1,30 @@
 <script>
 import Navbar from "./components/Navbar.vue";
-import Main from "./components/Main.vue"
+import Main from "./components/Main.vue";
 import Aside from "./components/Aside.vue";
 
 export default {
 	components: {
 		Navbar,
 		Main,
-		Aside
+		Aside,
 	},
 };
 </script>
 
 <template>
-	<!-- Main Container -->
-	<div class="max-w-4xl m-auto border border-red-500">
-		<!-- Header & Nav -->
-		<header>
-			<!-- Navbar component -->
-			<Navbar />
-		</header>
+	<!-- Header & Nav -->
+	<header class="bg-white border-b mb-12">
+		<!-- Navbar component -->
+		<Navbar class="max-w-4xl m-auto" />
+	</header>
 
-		<div class="flex">
-			<!-- Main section (stories and posts) -->
-			<Main />
+	<div class="flex max-w-4xl m-auto">
+		<!-- Main section (stories and posts) -->
+		<Main class="w-[60%]" />
 
-			<!-- Aside section (profile, suggestion and footer) -->
-			<Aside class="border border-orange-500 grow-[1]"/>
-		</div>
-		
+		<!-- Aside section (profile, suggestion and footer) -->
+		<Aside class="w-[40%]" />
 	</div>
 </template>
 
