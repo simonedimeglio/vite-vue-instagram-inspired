@@ -1,5 +1,7 @@
 # Boolgram - Vue3
 
+![Boolgram](https://user-images.githubusercontent.com/78272736/213757101-24622848-8283-4318-b11f-e62c18853d4d.jpg)
+
 This project is a replica of Instagram,  built using Vue3 (https://vuejs.org/) and Vite (https://vitejs.dev/guide/) as the development environment. 
 
 > Vite is a development server that is built for Vue3, it provides a fast development experience with instant hot-reloading .
@@ -31,6 +33,10 @@ The project is open source and contributions are welcome. The code is well-docum
 
 -   Node.js version 14 or higher
 -   npm or yarn package manager
+
+## Project Structure
+
+<img width="463" alt="Structure" src="https://user-images.githubusercontent.com/78272736/213757854-20b8c95a-972c-4651-88f7-05d79ca385dd.png">
 
 ## Getting Started
 1.  Clone the repository by running `git clone https://github.com/yourusername/your-repository-name.git` in your terminal.
