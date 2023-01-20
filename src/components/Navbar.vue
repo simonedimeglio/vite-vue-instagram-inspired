@@ -1,3 +1,4 @@
+<!-- Navbar -->
 <script>
 import { HeartIcon } from '@heroicons/vue/24/outline'
 import { HomeIcon } from '@heroicons/vue/24/solid'

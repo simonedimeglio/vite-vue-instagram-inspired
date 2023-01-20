@@ -1,11 +1,12 @@
+<!-- Main -->
 <script>
-	import Stories from "./Stories.vue"
-	import Posts from "./Posts.vue"
+	import Stories from "./stories-components/Stories.vue"
+	import Posts from "./posts-components/Posts.vue"
 
 	export default {
 		components: {
 			Stories,
-			Posts
+			Posts,
 		},
 	};
 </script>
