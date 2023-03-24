@@ -12,7 +12,7 @@
 </script>
 
 <template>
-  <main class="mr-8">
+ 	<main class="mr-8">
 		<Stories />
 		<Posts />
 	</main>
